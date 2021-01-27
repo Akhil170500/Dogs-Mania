@@ -1,0 +1,295 @@
+body
+{
+	background-color:black;
+	padding:8px;
+	border:8px solid #fca503;
+	width:100%;
+	height:auto;
+}
+
+#navv
+{
+	position:fixed;
+	z-index:10;
+	background-color:#fca503;
+	line-height:2em;
+	padding:0;
+	width:100%;
+	box-shadow: inset 1px 1px 30px 3px black;
+	margin:0;
+	top:0;
+}
+
+#logo img
+{
+	width:40px;
+	height:40px;
+	border-radius:100%;
+	border:1px solid #fca503;
+}
+
+#logo img:hover
+{
+	transform: scale(1.1);
+}
+
+#navbarNavDropdown ul li a
+{
+	color:white;
+	font-size:1.3em;
+	padding-left:2em;
+	font-family:courier;
+}
+
+#menu
+{
+	
+	color:white;
+	width:100%;
+	height:100%;
+	margin-top:2px;
+}
+
+#more a
+{
+	color:black;
+}
+
+.dash
+{
+	border:4px solid #43d6f7;
+}
+
+.dash img
+{
+	border:4px solid #43d6f7;
+	height:480px;
+	width:100%;
+	position:relative;
+	top:30px;
+}
+
+.dash .main{
+	display:flex;
+    text-align: center;
+	align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border:4px solid #fca503;
+    width: 280px;
+    height: 120px;
+    position: absolute;
+    top: 0;
+    left: 0;
+	right:0;
+	bottom:0;
+	margin:auto;
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    background-color: rgba(0, 0, 0, 0.3);
+    box-shadow: inset 3px 3px 60px 30px rgba(0, 0, 0, 0.3);
+}
+.main h1{
+	width:100%;
+    color: white;
+    font-size: 40px;
+    margin: 0px;
+    text-shadow: 5px 5px black;
+}
+.main p{
+    color: white;
+    font-size: 13px;
+    font-family: cursive;
+    width: 258px;
+	text-align:center;
+}
+
+.dropdown-menu
+{
+	color:black;
+	border:2px solid #fca503;
+	background-color:#43d6f7;
+	box-shadow: inset 3px 3px 20px 3px black;
+}
+
+.dropdown-menu .dropdown-item:hover
+{
+	background-color:#fca503;
+	box-shadow: inset 3px 3px 20px 3px black;
+}
+
+#navbarNavDropdown a:hover
+{
+	text-decoration:underline;
+}
+
+#dashboard
+{
+	padding-bottom:20px;
+}
+
+.latestproducts
+{
+	position:relative;
+}
+
+.pros 
+{
+	display:inline-block;
+}
+
+.pros button
+{
+	color:white;
+	background-color:#fca503;
+	padding-top:3px;
+	padding-bottom:3px;
+	margin:0;
+}
+
+.pros button:hover
+{
+	border:2px solid #fca503;
+	background-color:#43d6f7;
+	padding-top:3px;
+	padding-bottom:3px;
+	margin:0;
+}
+
+.pros li
+{
+	margin:2.5em;
+	background-color:#43d6f7;
+	height:270px;
+	width:255px;
+	border-radius:10px;
+	text-align:center;
+}
+
+.pros p
+{
+	font-family:courier;
+	padding:0;
+	margin:0;
+	font-size:20px;
+	background-color:#fca503;
+	color:white;
+	border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.pros span
+{
+	font-family:courier;
+	padding:0;
+	margin:0;
+}
+
+.latestproducts img
+{
+	border: 2px solid #fca503;
+	width:220px;
+	height:200px;
+	padding:0;
+	margin:0;
+	position:relative;
+	top:0;
+}
+
+.latestproducts h1
+{
+	font-size:2em;
+	text-align:center;
+	font-family:courier;
+	letter-spacing:3px;
+	color:white;
+	text-shadow: 2px 2px 2px #43d6f7;
+	background-color:#fca503;
+	box-shadow: inset 3px 3px 40px 3px black;
+}
+
+.card-header 
+{
+	background-color:#fca503;
+	font-size:1.5em;
+	letter-spacing:2px;
+	line-height:0em;
+	font-family:courier;
+}
+
+form 
+{
+	padding:5em;
+	position:relative;
+	margin:auto;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	height:auto;
+	width:26em;
+}
+
+.form-group 
+{
+	background-color:none;
+	color:white;
+	padding:0;
+	margin:0;
+}
+
+.logincont 
+{
+	border:2px solid #fca503;
+	height:20em;
+	width:18em;
+	padding:1em;
+	border-radius:20px;
+	cursor:pointer;
+	margin-top:1em;
+}
+
+.form-control
+{
+	background-color:#43d6f7;
+	color:black;
+	border-radius:10px;
+}
+
+.form-control:hover
+{
+	background-color:black;
+	color:white;
+	border-radius:10px;
+	border:2px solid #fca503;
+}
+
+.logincont .btn 
+{
+	background-color:#43d6f7;
+	position:absolute;
+	margin:auto;
+	top:30%;
+	left:0;
+	right:0;
+	bottom:0;
+	height:2em;
+	color:black;
+	border-radius:10px;
+}
+
+.logincont .btn:hover
+{
+	background-color:black;
+	color:white;
+	border-radius:10px;
+	border:2px solid #fca503;
+}
+
+.form-check
+{
+	text-align:center;
+	padding:4px;
+	width:50%;
+	margin-left:10px;
+}
